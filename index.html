@@ -15,12 +15,12 @@
 		<link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css">
 		
 		
-		<script>
+<script>
 function checkPassword() {
   var pass = prompt("パスワードを入力してください:");
-  if (pass !== "1234") { // パスワードは自由に変更
+  if (pass !== "1234") {
     alert("パスワードが違います");
-    window.location.href = "https://www.google.com"; // 間違えたら移動
+    window.location.replace("https://www.google.com");
   }
 }
 </script>
